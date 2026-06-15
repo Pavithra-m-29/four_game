@@ -1,0 +1,30 @@
+body{
+    text-align:center;
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+#board{
+    display:grid;
+    grid-template-columns:repeat(7,70px);
+    gap:5px;
+    justify-content:center;
+    margin:20px auto;
+}
+
+.cell{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:white;
+    border:2px solid black;
+    cursor:pointer;
+}
+
+.red{
+    background:red;
+}
+
+.yellow{
+    background:yellow;
+}
